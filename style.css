@@ -86,3 +86,23 @@ ul li a:hover{
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #388adc;
+  border: 2px solid #388adc;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
