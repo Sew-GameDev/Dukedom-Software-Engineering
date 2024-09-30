@@ -97,6 +97,7 @@ ul li a:hover{
   font-size: 15px;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
+  text-decoration: none; /*this was added by me to try and remove underline*/
 }
 
 .btn:focus{
