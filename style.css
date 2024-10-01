@@ -158,3 +158,12 @@ ul li a:hover{
   color: #388adc;
   font-size: 60px;
 }
+
+.form{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+}
