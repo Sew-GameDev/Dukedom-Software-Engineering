@@ -207,3 +207,26 @@ ul li a:hover{
   font-family: Arial;
 }
   
+.subbtn{
+  width: 240px;
+  height: 40px;
+  background: #388adc;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s ease;
+}
+
+.subbtn:hover{
+  background: #fff;
+  color: #338adc;
+}
+
+.subbtn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
