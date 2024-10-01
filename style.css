@@ -178,7 +178,8 @@ ul li a:hover{
   font-size: 22px;
   background-color: #fff;
   border-radius: 10px;
-  margin: 15px;
+  margin-top: 2px;
+  margin-left: 15px;
   padding: 8px;
 }
   
