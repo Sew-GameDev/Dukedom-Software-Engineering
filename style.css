@@ -182,4 +182,14 @@ ul li a:hover{
   margin-left: 62px;
   padding: 8px;
 }
-  
+
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #388adc;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+}
