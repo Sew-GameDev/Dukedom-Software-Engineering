@@ -152,9 +152,9 @@ ul li a:hover{
 
 .cn:hover{
   background-color: #fff;
+  .content a{
+    color: #fff;
+  }/*me add*/
 }
 
-.content a:hover{
-  color: #fff;
-} /*personal add*/
   
