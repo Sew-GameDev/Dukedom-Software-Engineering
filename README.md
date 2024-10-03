@@ -7,6 +7,7 @@ Created new branches for each individual, MAKE SURE TO PULL ALL OF THESE TO INDI
 
 
 Used this youtube video to design the landing page for the website HEAVILY: https://www.youtube.com/watch?v=CQZxeoQeo5c&t=3s <br>
+https://www.youtube.com/playlist?list=PLMPdeA59PPg3KvGr7ACBhxSKH-1FYIZ3n Playlist for more website generation
 Color used for website theme: #388adc <br>
 HTML comment < !--your comment words--> but without the space <br>
 CSS comment /* your comment words */<br>
