@@ -24,17 +24,17 @@
 }
 
 .logo{
-  color: #fbfdff;
-  font-size: 35px;
+  color: #388adc;
+  font-size: 30px;/*please?*/
   font-family: Arial;
   padding-left: 20px;
-  float: right;/*fingers crossed*/
+  float: left;
   padding-top: 10px;
 }
 
 .logo a{
   text-decoration: none;
-  color: #fff;
+  color: #388adc;
 }
   
 .menu{
@@ -44,7 +44,7 @@
 }
 
 ul{
-  float: right;/*come ON*/
+  float: left;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ ul{
   
 ul li{
   list-style: none;
-  margin-left: 55px;/*change to try and make logo inline*/
+  margin-left: 62px;
   margin-top: 27px;
   font-size: 14px;
 }
