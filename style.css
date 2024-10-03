@@ -27,8 +27,8 @@
   color: #fbfdff;
   font-size: 35px;
   font-family: Arial;
-  padding-left: 10px;
-  float: left;
+  padding-left: 20px;
+  float: right;/*change to try and get image and logo inline*/
   padding-top: 10px;
 }
 
