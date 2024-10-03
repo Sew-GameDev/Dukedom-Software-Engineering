@@ -167,7 +167,7 @@ ul li a:hover{
 
 .form{
   width: 250px;
-  height: 380px;
+  height: 320px;/*add 60px if returning log in with section*/
   background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
   position: absolute;
   top: -20px;
@@ -237,6 +237,7 @@ ul li a:hover{
   font-weight: bold;
 }
 
+/*for when we had log in with section
 .form .link{
   font-family: Arial;
   font-size: 17px;
@@ -249,7 +250,7 @@ ul li a:hover{
   color: #388adc;
 }
   
-.liw{/*this is for sign in/up with other applications*/
+.liw{        /*this is for sign in/up with other applications
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
@@ -270,4 +271,4 @@ ul li a:hover{
 
 .icons ion-icon:hover{
   color: #388adc;
-}
+} */
