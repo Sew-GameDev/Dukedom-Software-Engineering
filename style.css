@@ -1,9 +1,9 @@
 *{
   margin: 0;
   padding: 0;
-
 }
-.main{
+
+.main{/*for the entire site, formats background */
   width: 100%;
   background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%), url(Dukedom_BG_alt.jpg);
   background-position: center;
@@ -11,19 +11,19 @@
   height:109vh;
 }
 
-.navbar{
+.navbar{/*for the navigation bar*/
   width: 1200px;
   height: 75px;
   margin: auto;
 }
 
-.icon{
+.icon{/*brand logo and name on navbar*/
   width: 200px;
   float: left;
   height: 70px;
 }
 
-.logo{
+.logo{/*brand logo and name on navbar*/
   color: #fff;
   font-size: 30px;/*please?*/
   font-family: Arial;
@@ -32,32 +32,32 @@
   padding-top: 15px;
 }
 
-.logo a{
+.logo a{/*brand logo and name on navbar*/
   text-decoration: none;
   color: #fff;
 }
   
-.menu{
+.menu{/*navbar spacing and size*/
   width: 400px;
   float: left;
   height: 70px;
 }
 
-ul{
+ul{/*navbar alignment*/
   float: left;
   display: flex;
   justify-content: center;
   align-items: center;
 }
   
-ul li{
+ul li{/*navbar alignment*/
   list-style: none;
   margin-left: 62px;
   margin-top: 27px;
   font-size: 16px;/*adjusted for sixing fun*/
 }
 
-ul li a{
+ul li a{/*navbar formatting*/
   text-decoration: none;
   color: #fff;
   font-family: Arial;
@@ -65,18 +65,18 @@ ul li a{
   transition: 0.4s ease-in-out;
 }
 
-ul li a:hover{
+ul li a:hover{/*navbar formatting*/
   color: #388adc;
 }
 
 
-.search{
+.search{/*search bar size*/
   width: 330px;
   float: left;
   margin-left: 270px;
 }
 
-.srch{
+.srch{/*search bar type-field*/
   font-family: "Times New Roman";
   width: 200px;
   height: 40px;
@@ -92,7 +92,7 @@ ul li a:hover{
   border-top-left-radius: 5px;
 }
 
-.btn{
+.btn{/*search button*/
   width: 100px;
   height: 40px;
   background: #388adc;
@@ -105,15 +105,15 @@ ul li a:hover{
   cursor: pointer;
 }
 
-.btn:focus{
+.btn:focus{/*search button*/
   outline: none;
 }
 
-.srch:focus{
+.srch:focus{/*search button*/
   outline: none;
 }
-
-.content{
+/*HOMEPAGE*/
+.content{/*home page and small paragraph*/
   width: 1200px;
   height: auto;
   margin: auto;
@@ -121,7 +121,7 @@ ul li a:hover{
   position: relative;
 }
 
-.content .par{
+.content .par{/*paragraph formatiing*/
   padding: 20px;
   padding-bottom: 25px;
   font-family: Arial;
@@ -129,7 +129,7 @@ ul li a:hover{
   lint-height: 30px;
 }
 
-.content h1{
+.content h1{/*title splash formatting*/
   font-family: Times New Roman;
   font-size: 50px;
   padding-left: 20px;
@@ -137,7 +137,7 @@ ul li a:hover{
   letter-spacing: 2px;
 }
 
-.content .cn{
+.content .cn{/*learn more button*/
   width: 160px;
   height: 40px;
   background: #388adc;
@@ -150,22 +150,22 @@ ul li a:hover{
   transition: .4s ease;
 }
 
-.content a{
+.content a{/*removing link underline on button*/
   text-decoration: none;
   color: #000;
   transition: .3s ease;
 }
 
-.cn:hover{
+.cn:hover{/*animation on learn more button*/
   background-color: #fff;
 }
 
-.content span{
+.content span{/*highlight color on splash title*/
   color: #388adc;
   font-size: 60px;
 }
 
-.form{
+.form{/*sign in box*/
   width: 250px;
   height: 325px;/*add 55px if returning log in with section*/
   background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
@@ -176,7 +176,7 @@ ul li a:hover{
   padding: 25px;
 }
 
-.form h2{
+.form h2{/*log in title*/
   width: 110px;
   font-family: sans-serif;
   text-align: center;
@@ -189,7 +189,7 @@ ul li a:hover{
   padding: 8px;
 }
 
-.form input{
+.form input{/*email and password typelines*/
   width: 240px;
   height: 35px;
   background: transparent;
@@ -204,16 +204,30 @@ ul li a:hover{
   font-family: Arial;
 }
 
-.form input:focus{
+.form input:focus{/*remove frills*/
     outline: none;
 }
 
-::placeholder{
+::placeholder{/*make password dots*/
   color: #fff;
   font-family: Arial;
 }
-  
-.subbtn{
+
+.form .link{/*'need an account?' title formatting*/
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 25px;/*remove 5px if returning log in with section*/
+  text-align: center;
+}
+
+.form .link a{/*remove link formatting on sign up here line*/
+  text-decoration: none;
+  color: #388adc;
+}
+
+/*END HOMEPAGE Specific*/
+
+.subbtn{/*basic button can be used elsewhere*/
   width: 240px;
   height: 40px;
   background: #388adc;
@@ -226,29 +240,18 @@ ul li a:hover{
   transition: .4s ease;
 }
 
-.subbtn:hover{
+.subbtn:hover{/*basic button animation*/
   background: #fff;
   color: #338adc;
 }
 
-.subbtn a{
+.subbtn a{/*basic formatting*/
   text-decoration: none;
   color: #000;
   font-weight: bold;
 }
 
 
-.form .link{
-  font-family: Arial;
-  font-size: 17px;
-  padding-top: 25px;/*remove 5px if returning log in with section*/
-  text-align: center;
-}
-
-.form .link a{
-  text-decoration: none;
-  color: #388adc;
-}
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
   padding-top: 15px;
