@@ -272,6 +272,19 @@ ul li a:hover{/*navbar formatting*/
   color: #388adc;
   font-size: 47px;
 }
+
+.aboutcontent .par2{/*paragraph formatiing*/
+  padding: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  lint-height: 30px;
+}
+
+.aboutcontent span3{
+  color: #388adc;
+  font-weight: italic;
+}
 /*END ABOUT PAGE Specific*/
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
