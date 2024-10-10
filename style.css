@@ -288,32 +288,29 @@ ul li a:hover{/*navbar formatting*/
 /*END ABOUT PAGE Specific*/
 
 .registeracct{
-    width: 240px;
+  width: 240px;
   height: 35px;
   background: transparent;
   border-bottom: 1px solid #388adc;
   border-top: none;
   border-right: none;
   border-left: none;
-  color: #000;
   font-size: 15px;
   letter-spacing: 1px;
   margin-top: 30px;
   font-family: Arial;
+  color: #fff;
+  align: left;
+  margin-left: 40%;
 }
 .content3{/*register user and small paragraph*/
   padding-top: 30px;
   align: center;
   width: 1200px;
   height: auto;
-  margin: auto;
+  margin-left: 45%;
   color: #fff;
   /*position: relative;*/
-}
-.registeracct{/*Label formatting for the fields?*/
-  color: #fff;
-  align: left;
-  margin-left: 45%;
 }
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
