@@ -312,6 +312,8 @@ ul li a:hover{/*navbar formatting*/
 }
 .registeracct{/*Label formatting for the fields?*/
   color: #fff;
+  align: left;
+  margin-left: 45%;
 }
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
