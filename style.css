@@ -301,7 +301,7 @@ ul li a:hover{/*navbar formatting*/
   font-family: Arial;
   color: #fff;
   align: left;
-  margin-left: 40%;
+  /*margin-left: 40%;*/
 }
 .content3{/*register user and small paragraph*/
   padding-top: 30px;
