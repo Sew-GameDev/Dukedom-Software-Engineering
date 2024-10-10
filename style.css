@@ -288,7 +288,7 @@ ul li a:hover{/*navbar formatting*/
 /*END ABOUT PAGE Specific*/
 
 .registeracct{
-  width: 240px;
+  width: 280px;
   height: 35px;
   background: transparent;
   border-bottom: 1px solid #388adc;
@@ -308,7 +308,7 @@ ul li a:hover{/*navbar formatting*/
   align: center;
   width: 1200px;
   height: auto;
-  margin-left: 45%;
+  margin-left: 43%;
   color: #fff;
   /*position: relative;*/
 }
