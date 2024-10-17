@@ -370,7 +370,6 @@ df-messenger {
 
 
 .house_box{
-  radius: 10px;
   padding-top: 30px;
   color: #fff;
   font-family: Arial;
@@ -395,10 +394,12 @@ df-messenger {
 }
   
 .houseListings ul li{
+  radius: 10px;
   list-style: none;
-  margin-left: 70px;
+  margin-left: 15%;
   margin-top: 30px;
   font-size: 16px;/*adjusted for sixing fun*/
+  
 }
 
 /* ul li a{
