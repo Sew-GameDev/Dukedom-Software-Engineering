@@ -370,12 +370,14 @@ df-messenger {
 
 
 .house_box{
+  padding-top: 20px;
+  color: #000;
   border: 1px solid #fff;
   background: solid #fff;
   margin: auto;
   position: relative;
-  height: 240px;
-  width: 120px;
+  height: 480px;
+  width: 240px;
 }
 
 /*for when we had log in with section  
