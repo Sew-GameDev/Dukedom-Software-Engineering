@@ -370,10 +370,10 @@ df-messenger {
 
 
 .house_box{
-  padding-top: 20px;
-  color: #000;
-  border: 1px solid #fff;
-  background: solid #fff;
+  padding-top: 300px;
+  color: #fff;
+  border: 1px solid #000;
+  background: #000;
   margin: auto;
   position: relative;
   height: 480px;
