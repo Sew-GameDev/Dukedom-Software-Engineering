@@ -376,7 +376,7 @@ df-messenger {
   border: 1px solid #000;
   background: #000;
   margin: auto;
-  /*position: relative;*/
+  position: relative;
   height: 480px;
   width: 240px;
 }
