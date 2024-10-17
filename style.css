@@ -370,6 +370,7 @@ df-messenger {
 
 
 .house_box{
+  radius: 10px;
   padding-top: 30px;
   color: #fff;
   font-family: Arial;
@@ -381,12 +382,14 @@ df-messenger {
   width: 240px;
 }
 .listingsContent{/* please work*/
+  radius: 10px;
   width: 400px;
   float: left;
   height: 70px;
 }
 
 .houseListings ul{
+  radius: 10px;
   float: left;
   display: flex;
   justify-content: center;
@@ -396,7 +399,7 @@ df-messenger {
 .houseListings ul li{
   radius: 10px;
   list-style: none;
-  margin-left: 15%;
+  margin-left: 100px;
   margin-top: 30px;
   font-size: 16px;/*adjusted for sixing fun*/
   
