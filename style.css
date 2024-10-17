@@ -251,6 +251,61 @@ ul li a:hover{/*navbar formatting*/
   font-weight: bold;
 }
 
+/*CONTACT PAGE START*/
+.contactcontent{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+
+}
+
+.contactcontent h1{
+  font-family: Times New Roman;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 9%;
+  letter-spacing: 2px;
+  color: #fff;
+  
+}
+.contactcontent span2{
+  font-family: Arial;
+  letter-spacing: .1px;
+  color: #388acd;
+  font-size: 40px;
+
+}
+
+.contactcontent .par2{
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.contactcontent h2{
+  text-align: center;
+  font-size: 25px;
+}
+  /*FOR AI*/
+df-messenger {
+  z-index: 999;
+  position: fixed;
+  --df-messenger-font-color: #fff;
+  --df-messenger-font-family: Arial;
+  --df-messenger-chat-background: #d5f5fa;
+  --df-messenger-message-user-background: #388acd;
+  --df-messenger-message-bot-background: #1a93d4;
+  bottom: 16px;
+  right: 16px;
+}
+
+/*END OF COTNACT PAGE*/
+
 /*ABOUT PAGE*/
 .aboutcontent{/*home page and small paragraph*/
   width: 1200px;
