@@ -367,6 +367,15 @@ df-messenger {
   color: #fff;
   /*position: relative;*/
 }
+
+
+.house_box{
+  border: 1px solid #fff;
+  background: solid #fff;
+  margin: auto;
+  position: relative;
+}
+
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
   padding-top: 15px;
