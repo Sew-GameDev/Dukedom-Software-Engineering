@@ -337,10 +337,15 @@ df-messenger {
   color: #388adc;
   font-style: italic;
 }
+
+.aboutcontent h2{
+  font-family: Times New Roman;
+  padding-left: 20px;
+}
 /*END ABOUT PAGE Specific*/
 
 /*register account page*/
-.registeracct{
+.registeracct input{
   width: 280px;
   height: 35px;
   background: transparent;
@@ -361,14 +366,15 @@ df-messenger {
   align: center;
   width: 1200px;
   height: auto;
-  margin-left: 43%;
+  /*margin-left: 43%;*/
+  margin: auto;
   color: #fff;
   /*position: relative;*/
 }
 /*end register account*/
 
 /*list_houses page*/
-.house_box{
+.house_box {
   radius: 10px;
   padding-top: 30px;
   color: #fff;
