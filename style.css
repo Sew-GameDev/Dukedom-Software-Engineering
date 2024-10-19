@@ -349,6 +349,9 @@ df-messenger {
   font-family: Arial;
   font-size: 15px;
   margin-top: 20px;
+  background: rgba(0,0,0,.9);
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 
 .registeracct input{
@@ -361,13 +364,13 @@ df-messenger {
   border-left: none;
   font-size: 15px;
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: Arial;
   color: #fff;
   align: left;
 }
 
-.registeracct option{ margin-top: 20px;}
+.registeracct option{ margin-top: 10px;}
 
 .registeracct input:focus{/*remove frills*/
   outline: none;
