@@ -258,7 +258,6 @@ ul li a:hover{/*navbar formatting*/
   margin: auto;
   color: #fff;
   position: relative;
-
 }
 
 .contactcontent h1{
@@ -268,14 +267,12 @@ ul li a:hover{/*navbar formatting*/
   margin-top: 9%;
   letter-spacing: 2px;
   color: #fff;
-  
 }
 .contactcontent span2{
   font-family: Arial;
   letter-spacing: .1px;
   color: #388acd;
   font-size: 40px;
-
 }
 
 .contactcontent .par2{
@@ -342,6 +339,7 @@ df-messenger {
 }
 /*END ABOUT PAGE Specific*/
 
+/*register account page*/
 .registeracct{
   width: 280px;
   height: 35px;
@@ -367,8 +365,9 @@ df-messenger {
   color: #fff;
   /*position: relative;*/
 }
+/*end register account*/
 
-
+/*list_houses page*/
 .house_box{
   radius: 10px;
   padding-top: 30px;
