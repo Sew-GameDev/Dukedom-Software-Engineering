@@ -345,6 +345,12 @@ df-messenger {
 /*END ABOUT PAGE Specific*/
 
 /*register account page*/
+.registeracct{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
 .registeracct input{
   width: 280px;
   height: 35px;
@@ -355,23 +361,24 @@ df-messenger {
   border-left: none;
   font-size: 15px;
   letter-spacing: 1px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: Arial;
   color: #fff;
   align: left;
-  margin-left: 40%;
 }
-.form input:focus{/*remove frills*/
-    outline: none;
-    border-bottom: 2px solid #388adc;
+
+.registeracct option{ margin-top: 20px;}
+
+.registeracct input:focus{/*remove frills*/
+  outline: none;
+  border-bottom: 2px solid #388adc;
 }
 .content3{/*register user and small paragraph*/
   padding-top: 30px;
   align: center;
   width: 1200px;
   height: auto;
-  /*margin-left: 43%;*/
-  margin: auto;
+  margin-left: 43%;
   color: #fff;
   /*position: relative;*/
 }
