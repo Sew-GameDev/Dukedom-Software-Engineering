@@ -389,10 +389,13 @@ df-messenger {
   align: center;
   width: 1200px;
   height: auto;
-  margin-left: 45%;
+  margin-left: 40%;
   color: #fff;
   /*position: relative;*/
 }
+
+.content3 h2{ margin-left: 2%;}
+
 /*end register account*/
 
 /*list_houses page*/
