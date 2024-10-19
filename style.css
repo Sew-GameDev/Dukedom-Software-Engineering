@@ -352,9 +352,12 @@ df-messenger {
   background: rgba(0,0,0,.9);
   border: 1px solid #000;
   border-radius: 10px;
+  width: 300px;
+  height: 500px;
 }
 
 .registeracct input{
+  padding-left: 15px;
   width: 280px;
   height: 35px;
   background: transparent;
@@ -370,7 +373,12 @@ df-messenger {
   align: left;
 }
 
-.registeracct option{ margin-top: 10px;}
+.registeracct option{ 
+  margin-top: 10px;
+  margin-left:15px;
+  font-family: Arial;
+  font-size: 15px;
+}
 
 .registeracct input:focus{/*remove frills*/
   outline: none;
@@ -381,7 +389,7 @@ df-messenger {
   align: center;
   width: 1200px;
   height: auto;
-  margin-left: 43%;
+  margin-left: 45%;
   color: #fff;
   /*position: relative;*/
 }
