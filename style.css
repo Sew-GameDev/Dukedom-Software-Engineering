@@ -385,53 +385,51 @@ df-messenger {
 /*end register account*/
 
 /*list_houses page*/
+
+.listingsContent{
+  align: center;
+  width: 1200px;
+  height: auto;
+  margin-left:265px;
+ 
+}
 .house_box {
-  radius: 10px;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 50px;
   color: #fff;
   font-family: Arial;
+  font-size: 20px;
   border: 1px solid #000;
   background: #000;
-  margin: auto;
-  position: relative;
-  height: 480px;
-  width: 240px;
+  background: rgba(0,0,0,0.90);
+  height: 285px;
+  width: 210px;
+  float: center;
+  border-radius: 10px;
 }
-.listingsContent{/* please work*/
-  radius: 10px;
-  width: 400px;
-  float: left;
-  height: 70px;
+.house_box img{
+  border-radius: 5px;
 }
 
-.houseListings ul{
-  radius: 10px;
+.house_box span{
+  color:#388adc
+}
+
+.houseListings{
   float: left;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  
-.houseListings ul li{
-  radius: 10px;
-  list-style: none;
-  margin-left: 100px;
-  margin-top: 30px;
-  font-size: 16px;/*adjusted for sixing fun*/
-  
+.houseListings a{
+  font-weight: normal;
 }
-
-/* ul li a{
-  text-decoration: none;
+.houseListings a:hover{
   color: #fff;
-  font-family: Arial;
-  font-weight: bold;
-  transition: 0.4s ease-in-out;
 }
 
-ul li a:hover{
-  color: #388adc;
-}*/
+/*end list_houses page*/
 
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
