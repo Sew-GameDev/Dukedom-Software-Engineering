@@ -359,7 +359,7 @@ df-messenger {
   font-family: Arial;
   color: #fff;
   align: left;
-  /*margin-left: 40%;*/
+  margin-left: 40%;
 }
 .form input:focus{/*remove frills*/
     outline: none;
