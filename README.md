@@ -13,3 +13,5 @@ HTML comment < !--your comment words--> but without the space <br>
 CSS comment /* your comment words */<br>
 Will add comments on the files in a later commit.<br>
 Images uploaded are or can be used in development.<br>
+https://www.w3schools.com/howto/howto_css_overlay.asp <-- How to add an overlay to an html site?<br>
+https://www.w3schools.com/w3css/w3css_slideshow.asp <-- How to add a slideshow to HTML<br>
