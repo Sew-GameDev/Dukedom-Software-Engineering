@@ -166,8 +166,8 @@ ul li a:hover{/*navbar formatting*/
 }
 
 .form{/*sign in box*/
-  width: 250px;
-  height: 325px;/*add 55px if returning log in with section*/
+  width: 300px;
+  height: 350px;/*add 55px if returning log in with section*/
   background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
   position: absolute;
   top: -20px;
@@ -344,7 +344,7 @@ df-messenger {
 }
 /*END ABOUT PAGE Specific*/
 
-/*register account page*/
+/*REGISTER ACCT PAGE*/
 .registeracct{
   font-family: Arial;
   font-size: 15px;
@@ -396,7 +396,7 @@ df-messenger {
 
 .content3 h2{ margin-left: 3%;}
 
-/*end register account*/
+/*END register account*/
 
 /*list_houses page*/
 
@@ -446,13 +446,51 @@ df-messenger {
 
 
 /*house_details page*/
+.content_details{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+.content_details h2 span{
+ color: #388adc;
+}
+.buybtn{
+  width: 180px;
+  height: 40px;
+  background: #388adc;
+  border: none;
+  margin-top: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s ease;
+}
+
+.buybtn:hover{
+  background: #fff;
+  color: #338adc;
+}
+
+.buybtn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   max-height: 1000px;
-  position: relative;
+  position: absolute;
+  top: 110px;
+  left: 700px;
   margin: auto;
 }
 
@@ -513,7 +551,7 @@ df-messenger {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 1px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
