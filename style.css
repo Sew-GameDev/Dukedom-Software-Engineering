@@ -224,7 +224,24 @@ ul li a:hover{/*navbar formatting*/
   text-decoration: none;
   color: #388adc;
 }
-
+/*failed login page*/
+.faillog{
+  width: 200px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #d83723;
+  font-size: 14px;
+  background: transparent;
+  border-radius: 10px;
+  margin-top: 1px;
+  margin-left: 25px;
+  padding: 1px;
+}
+.form .newheader{
+font-size:20px;
+padding: 0px;
+}
+/*end failed login*/
 /*END HOMEPAGE Specific*/
 
 .subbtn{/*basic button can be used elsewhere*/
