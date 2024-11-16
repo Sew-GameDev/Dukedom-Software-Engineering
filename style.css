@@ -593,23 +593,23 @@ df-messenger {
 /*end house_details page*/
 /*profile page start*/
 .userinfo{
-  padding-top: 30px;
+  padding-top: 22px;
   align: center;
   width: 300px;
   height: 500px;
-  margin-left: 20%;
+  margin-left: 15%;
   color: #fff;
 }
 
 .uilist{
   font-family: Arial;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 28px;
   background: rgba(0,0,0,.9);
   border: 1px solid #000;
   border-radius: 10px;
   width: 350px;
-  height: 347px;
+  height: 400px;
   padding-top:15px;
   padding-left: 15px;
   letter-spacing: 1px;
@@ -620,7 +620,45 @@ df-messenger {
  color:#388adc;
  font-weight: bold;
 }
-/*end profile pg*/
+
+.editProfile{
+  width: 180px;
+  height: 40px;
+  background: #388adc;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s ease;
+}
+
+.editProfile:hover{
+  background: #fff;
+  color: #338adc;
+}
+
+.editProfile a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.ownedProps{
+ position: absolute;
+ top: 97px;
+ left: 650px;
+ margin: auto;
+ color: #fff;
+}
+
+.sellingProps{
+ position: absolute;
+ top: 97px;
+ left: 1150px;
+ margin: auto;
+ color: #fff;
+}
+/*End Profile page*/
 
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
