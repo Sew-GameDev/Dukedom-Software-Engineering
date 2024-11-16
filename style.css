@@ -38,7 +38,7 @@
 }
   
 .menu{/*navbar spacing and size*/
-  width: 400px;
+  width: 500 px;
   float: left;
   height: 70px;
 }
@@ -52,7 +52,7 @@ ul{/*navbar alignment*/
   
 ul li{/*navbar alignment*/
   list-style: none;
-  margin-left: 62px;
+  margin-left: 80px;
   margin-top: 27px;
   font-size: 16px;/*adjusted for sixing fun*/
 }
@@ -591,6 +591,7 @@ df-messenger {
 }
 
 /*end house_details page*/
+
 /*profile page start*/
 .userinfo{
   padding-top: 22px;
