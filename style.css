@@ -622,7 +622,7 @@ df-messenger {
  font-weight: bold;
 }
 
-.editProfile{
+.editProfilebtn{
   width: 180px;
   height: 40px;
   background: #388adc;
@@ -634,16 +634,16 @@ df-messenger {
   transition: .4s ease;
 }
 
-.editProfile:hover{
+.editProfilebtn:hover{
   background: #fff;
   color: #338adc;
 }
 
-.editProfile a{
+.editProfilebtn a{
   text-decoration: none;
   color: #000;
-  font-weight: bold;
 }
+
 .ownedProps{
  position: absolute;
  top: 97px;
@@ -660,6 +660,105 @@ df-messenger {
  color: #fff;
 }
 /*End Profile page*/
+
+/*Profile Edit Page*/
+.editacct{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 20px;
+  background: rgba(0,0,0,.9);
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  height: 685px;
+}
+
+
+input[type=button]{/*the only thing that works here is the radisu and idk why*/
+  background: #388adc;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #388adc;
+  transition: .4s ease;
+  margin-left: 55px;
+}
+
+.editacct input{
+  padding-left: 15px;
+  width: 280px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #388adc;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  font-family: Arial;
+  color: #fff;
+  align: center;
+  margin-left: 10px;
+  padding-top: 2px;
+}
+
+.editacct option{ 
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.editacct input:focus{/*remove frills*/
+  outline: none;
+  border-bottom: 2px solid #388adc;
+}
+.editProfilepg{/*register user and small paragraph*/
+  padding-top: 30px;
+  align: center;
+  width: 1200px;
+  height: auto;
+  margin-left: 40%;
+  color: #fff;
+  /*position: relative;*/
+}
+
+.editProfilepg h2{ margin-left: 4%;}
+
+.saveProfInfo:hover{
+  background: #fff;
+  color: #338adc;
+}
+
+/*END edit profile account*/
+
+/*non-verified Profile button*/
+.subbtn2{
+  width: 245px;
+  height: 60px;
+  background: #388adc;
+  border: none;
+  margin-left: 5px;
+  margin-top: 27px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s ease;
+}
+.subbtn2:hover{/*basic button animation*/
+  background: #fff;
+  color: #338adc;
+}
+
+.subbtn2 a{/*basic formatting*/
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/*End non-verified page button*/
+
 
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
