@@ -17,6 +17,7 @@ https://www.w3schools.com/howto/howto_css_overlay.asp <-- How to add an overlay 
 https://www.w3schools.com/w3css/w3css_slideshow.asp <-- How to add a slideshow to HTML<br>
 
 Creating local server for AI bot to work
+
 1.Open terminal 
 
 2.Change directory to desktop
