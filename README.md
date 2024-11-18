@@ -18,11 +18,14 @@ https://www.w3schools.com/w3css/w3css_slideshow.asp <-- How to add a slideshow t
 
 Creating local server for AI bot to work
 1.Open terminal 
+
 2.Change directory to desktop
 Windows: cd Desktop
-            Mac: cd ~/Desktop
+Mac: cd ~/Desktop
+
 3.Change directory to dukedom file
 Cd DukedomFileName
 Windows: cd C:\Users\<YourUsername>\Desktop\my-website
-            Mac: cd /Users/<YourUsername>/Desktop/my-website
+Mac: cd /Users/<YourUsername>/Desktop/my-website
+
 4. enter: python3 -m http.server
