@@ -15,3 +15,14 @@ Will add comments on the files in a later commit.<br>
 Images uploaded are or can be used in development.<br>
 https://www.w3schools.com/howto/howto_css_overlay.asp <-- How to add an overlay to an html site?<br>
 https://www.w3schools.com/w3css/w3css_slideshow.asp <-- How to add a slideshow to HTML<br>
+
+Creating local server for AI bot to work
+1.Open terminal 
+2.Change directory to desktop
+Windows: cd Desktop
+            Mac: cd ~/Desktop
+3.Change directory to dukedom file
+Cd DukedomFileName
+Windows: cd C:\Users\<YourUsername>\Desktop\my-website
+            Mac: cd /Users/<YourUsername>/Desktop/my-website
+4. enter: python3 -m http.server
