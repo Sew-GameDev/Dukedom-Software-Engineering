@@ -759,6 +759,59 @@ input[type=button]{/*the only thing that works here is the radisu and idk why*/
 
 /*End non-verified page button*/
 
+/* Sell Page, verified*/
+.sellInputs{
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 20px;
+  background: rgba(0,0,0,.9);
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+}
+
+.sellInputs input{
+  padding-left: 15px;
+  width: 280px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #388adc;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-family: Arial;
+  color: #fff;
+  align: left;
+}
+
+.sellInputs option{ 
+  margin-top: 10px;
+  margin-left:15px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.sellInputs input:focus{/*remove frills*/
+  outline: none;
+  border-bottom: 2px solid #388adc;
+}
+.sellForm{/*register user and small paragraph*/
+  padding-top: 30px;
+  align: center;
+  width: 1200px;
+  height: auto;
+  margin-left: 40%;
+  color: #fff;
+  /*position: relative;*/
+}
+
+.sellForm h2{ margin-left: 3%;}
+/*End Verified Sell Page*/
+
 
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
