@@ -762,13 +762,16 @@ input[type=button]{/*the only thing that works here is the radisu and idk why*/
 /* Sell Page, verified*/
 .sellInputs{
   font-family: Arial;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 20px;
   background: rgba(0,0,0,.9);
   border: 1px solid #000;
   border-radius: 10px;
   width: 300px;
-  height: 500px;
+  height: 450px;
+  margin-left: 6.5%;
+  padding-top: 5px;
+  color: #fff;
 }
 
 .sellInputs input{
@@ -782,10 +785,12 @@ input[type=button]{/*the only thing that works here is the radisu and idk why*/
   border-left: none;
   font-size: 15px;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-bottom: 8px;
   font-family: Arial;
   color: #fff;
-  align: left;
+  align: center;
+  margin-left: 10px;
+  padding-top: 3px;
 }
 
 .sellInputs option{ 
@@ -804,14 +809,92 @@ input[type=button]{/*the only thing that works here is the radisu and idk why*/
   align: center;
   width: 1200px;
   height: auto;
-  margin-left: 40%;
+  margin-left: 35%;
   color: #fff;
   /*position: relative;*/
 }
 
-.sellForm h2{ margin-left: 3%;}
+.sellButton{/*basic button can be used elsewhere*/
+  width: 240px;
+  height: 40px;
+  background: #388adc;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s ease;
+  margin-left: 30px;
+}
+
+.sellButton:hover{/*basic button animation*/
+  background: #fff;
+  color: #338adc;
+}
+
+.sellButton a{/*basic formatting*/
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
 /*End Verified Sell Page*/
 
+/* Sell Page, NONverified*/
+.sellInputs2{
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 20px;
+  background: rgba(0,0,0,.9);
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+  margin-left: 5.5%;
+  padding-top: 5px;
+  color: #fff;
+  padding-left: 5px;
+}
+
+
+.sellForm{/*register user and small paragraph*/
+  padding-top: 30px;
+  align: center;
+  width: 1200px;
+  height: auto;
+  margin-left: 35%;
+  color: #fff;
+  /*position: relative;*/
+}
+
+.sellButton2{/*basic button can be used elsewhere*/
+  width: 240px;
+  height: 40px;
+  background: #388adc;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s ease;
+  margin-left: 50px;
+}
+
+.sellButton2:hover{/*basic button animation*/
+  background: #fff;
+  color: #338adc;
+}
+
+.sellButton2 a{/*basic formatting*/
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/*End NONVerified Sell Page*/
 
 /*for when we had log in with section  
 .liw{        /*this is for sign in/up with other applications
